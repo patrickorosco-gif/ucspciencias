@@ -1,10 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi página</title>
+    <meta charset="UTF-8">
+    <title>Patrick Orosco - Ciencia de la Computación</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #22c55e;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #22c55e;
+            color: black;
+            padding: 8px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hola 👋</h1>
-    <p>Esta es mi primera página en GitHub</p>
+
+<header>
+    <h1>Patrick Fernando Orosco Maraza</h1>
+    <p>Estudiante de Ciencia de la Computación</p>
+    <p>Universidad Católica San Pablo - Arequipa, Perú</p>
+</header>
+
+<section>
+    <h2>📄 Sobre mí</h2>
+    <div class="card">
+        <p>
+            Soy estudiante de Ciencia de la Computación con interés en la programación,
+            tecnología y desarrollo de software. Tengo conocimientos básicos en lenguajes
+            de programación y electrónica.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>🧠 Habilidades</h2>
+    <div class="card">
+        <span class="skill">C++</span>
+        <span class="skill">Python</span>
+        <span class="skill">Circuitos básicos</span>
+        <span class="skill">Soldadura</span>
+        <span class="skill">Inglés básico</span>
+        <span class="skill">Francés básico</span>
+        <span class="skill">Español nativo</span>
+    </div>
+</section>
+
+<section>
+    <h2>📚 Cursos de la carrera</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Fundamentos de Programación</h3>
+            <p>Introducción a la lógica de programación, variables, estructuras de control y algoritmos básicos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Programación Orientada a Objetos</h3>
+            <p>Uso de clases, objetos, herencia y encapsulamiento para desarrollar software estructurado.</p>
+        </div>
+
+        <div class="card">
+            <h3>Estructuras de Datos</h3>
+            <p>Estudio de listas, pilas, colas, árboles y su uso eficiente en programas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Base de Datos</h3>
+            <p>Diseño y manejo de bases de datos relacionales usando SQL.</p>
+        </div>
+
+        <div class="card">
+            <h3>Algoritmos</h3>
+            <p>Diseño y análisis de algoritmos eficientes para resolver problemas complejos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Sistemas Operativos</h3>
+            <p>Funcionamiento de sistemas, procesos, memoria y manejo de recursos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Inteligencia Artificial</h3>
+            <p>Introducción a técnicas de IA y aprendizaje automático.</p>
+        </div>
+
+        <div class="card">
+            <h3>Redes</h3>
+            <p>Conceptos de comunicación, protocolos y redes de computadoras.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>🎯 Objetivo</h2>
+    <div class="card">
+        <p>
+            Mi objetivo es desarrollarme como ingeniero de software,
+            mejorar mis habilidades técnicas y participar en proyectos
+            innovadores en tecnología.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Patrick Orosco</p>
+</footer>
+
 </body>
 </html>
