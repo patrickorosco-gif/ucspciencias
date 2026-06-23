@@ -1,72 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    
     <meta charset="UTF-8">
-
-    <meta name="google-site-verification" content="QrGargvJoto-gmYFBJEsoMhNEYPhcHBg72HSpWOOgmM" />
-
-    <meta name="description" content="Estudiante de Ciencia de la Computación en Arequipa, Perú. Interesado en programación, software y tecnología.">
-
-    <title>Patrick Orosco - Ciencia de la Computación</title>
-        
+    <title>Mi Página Web</title>
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: white;
+            margin: 0;
+            background-color: #f4f4f4;
         }
 
         header {
-            background: #1e3a8a;
+            background-color: #1e3a8a;
+            color: white;
             padding: 20px;
             position: relative;
-            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
         }
 
         header img {
             position: absolute;
-            right: 20px;
             top: 10px;
-            width: 140px;
-        }
-
-        h1 {
-            color: #22c55e;
-            margin: 0;
+            right: 20px;
+            width: 100px;
         }
 
         section {
-            padding: 30px;
+            padding: 20px;
         }
 
         .card {
-            background: #1e293b;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 15px 0;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
         }
 
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
+        ul {
+            padding-left: 20px;
         }
 
-        .skill {
-            background: #22c55e;
-            color: black;
-            padding: 8px;
-            border-radius: 5px;
-            display: inline-block;
-            margin: 5px;
+        a {
+            color: #1e3a8a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         footer {
+            background-color: #1e3a8a;
+            color: white;
             text-align: center;
-            padding: 20px;
-            background: #020617;
+            padding: 10px;
         }
     </style>
 </head>
@@ -74,93 +64,24 @@
 <body>
 
 <header>
-    <h1>Patrick Fernando Orosco Maraza</h1>
+    <h1>Patrick Orosco</h1>
     <p>Estudiante de Ciencia de la Computación</p>
-    <p>Universidad Católica San Pablo - Arequipa, Perú</p>
 
-    <img src="logo.png" alt="UCSP Logo">
+    <!-- CAMBIA el nombre del archivo si es diferente -->
+    <img src="logo-ucsp.png" alt="Logo UCSP">
 </header>
-
-<section>
-    <h2>Sobre mí</h2>
-    <div class="card">
-        <p>
-            Soy estudiante de Ciencia de la Computación con interés en la programación,
-            tecnología y desarrollo de software. Tengo conocimientos básicos en lenguajes
-            de programación y electrónica.
-        </p>
-    </div>
-</section>
-
-<section>
-    <h2>Habilidades</h2>
-    <div class="card">
-        <span class="skill">C++</span>
-        <span class="skill">Python</span>
-        <span class="skill">Circuitos básicos</span>
-        <span class="skill">Soldadura</span>
-        <span class="skill">Inglés básico</span>
-        <span class="skill">Francés básico</span>
-        <span class="skill">Español nativo</span>
-    </div>
-</section>
-
-<section>
-    <h2>Cursos de la carrera</h2>
-
-    <div class="grid">
-
-        <div class="card">
-            <h3>Fundamentos de Programación</h3>
-            <p>Introducción a la lógica de programación, variables y algoritmos básicos.</p>
-        </div>
-
-        <div class="card">
-            <h3>Programación Orientada a Objetos</h3>
-            <p>Uso de clases, objetos y principios fundamentales del desarrollo de software.</p>
-        </div>
-
-        <div class="card">
-            <h3>Estructuras de Datos</h3>
-            <p>Estudio de estructuras como listas, pilas, colas y árboles.</p>
-        </div>
-
-        <div class="card">
-            <h3>Base de Datos</h3>
-            <p>Diseño y manejo de bases de datos utilizando SQL.</p>
-        </div>
-
-        <div class="card">
-            <h3>Algoritmos</h3>
-            <p>Resolución de problemas mediante algoritmos eficientes.</p>
-        </div>
-
-        <div class="card">
-            <h3>Sistemas Operativos</h3>
-            <p>Gestión de procesos, memoria y recursos del sistema.</p>
-        </div>
-
-        <div class="card">
-            <h3>Inteligencia Artificial</h3>
-            <p>Introducción a modelos de aprendizaje automático.</p>
-        </div>
-
-        <div class="card">
-            <h3>Redes</h3>
-            <p>Conceptos de comunicación y redes de computadoras.</p>
-        </div>
-
-    </div>
-</section>
 
 <section>
     <h2>Objetivo</h2>
     <div class="card">
-        <p>
-            Mi objetivo es convertirme en una gran profesional,
-            desarrollando mis habilidades en tecnología y aportando
-            soluciones innovadoras.
-        </p>
+        <p>Quiero ser una gran profesional.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Conocimientos</h2>
+    <div class="card">
+        <p>C++ básico, Python y aprendiendo SQL.</p>
     </div>
 </section>
 
@@ -171,7 +92,6 @@
             background: #0A66C2;
             color: white;
             padding: 10px 20px;
-            text-decoration: none;
             border-radius: 5px;
             display: inline-block;
         ">
@@ -180,12 +100,37 @@
     </div>
 </section>
 
+<section>
+    <h2>Páginas de mis compañeros</h2>
+    <div class="card">
+        <ul>
+            <li><a href="https://flavio-hc.github.io/pagina-personal/" target="_blank">Flavio</a></li>
+            <li><a href="https://lorian0x.github.io/" target="_blank">Lorian</a></li>
+            <li><a href="https://w4nd4r1.github.io/Ariana-Yasmin-Delgado-Arce/" target="_blank">Ariana</a></li>
+            <li><a href="https://aaronhumpiri.github.io/" target="_blank">Aaron</a></li>
+            <li><a href="https://kenya-sq.github.io/Kenya-Shupingahua-Quiroz/" target="_blank">Kenya</a></li>
+            <li><a href="https://faro-m.github.io/Pagina-Web-UCSP/" target="_blank">Faro</a></li>
+            <li><a href="https://camilasherlyn.github.io/ucspcienciascami/" target="_blank">Camila</a></li>
+            <li><a href="https://thepandoredxxo.github.io/Alejandro-Jacob-Valencia-Delgado-pagina-web-ICC-san-pablo/" target="_blank">Alejandro</a></li>
+            <li><a href="https://yeniferhuarachi-code.github.io/yeniferhuarachihalanoca.github.io/" target="_blank">Yenifer</a></li>
+            <li><a href="https://yerriflores.github.io/" target="_blank">Yerri</a></li>
+            <li><a href="https://frannnm.github.io/" target="_blank">Fran</a></li>
+            <li><a href="https://annyaguilar-hub.github.io/anny_aguilar_cv/" target="_blank">Anny</a></li>
+            <li><a href="https://angelfabianramosmunoz.github.io/" target="_blank">Angel</a></li>
+            <li><a href="https://diegoalonsoaragonnamani.github.io/DiegoAlonsoAragonMamani/" target="_blank">Diego</a></li>
+            <li><a href="https://timely-creep-7fb679.netlify.app/" target="_blank">Timely</a></li>
+            <li><a href="https://paputilin123.github.io/cvproyectnew/" target="_blank">Paputilin</a></li>
+            <li><a href="https://nicocesepdes0909-jpg.github.io/Nicole-Estefany-Cespedes-Conchacalle.github.io/" target="_blank">Nicole</a></li>
+            <li><a href="https://michaelcadena-lp.github.io/" target="_blank">Michael</a></li>
+            <li><a href="https://miguelezz.github.io/miguel-angel-atawi-zuniga-chacon/" target="_blank">Miguel</a></li>
+            <li><a href="https://fabrizioflv.github.io/fabrizio-web/" target="_blank">Fabrizio</a></li>
+        </ul>
+    </div>
+</section>
+
 <footer>
     <p>© 2026 Patrick Orosco</p>
 </footer>
-
-</body>
-</html>
 
 </body>
 </html>
